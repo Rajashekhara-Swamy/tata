@@ -1,0 +1,8 @@
+table{
+    border:5px solid whitesmoke;
+    font-size:35px;
+}
+tr:nth-child(even){
+background-color: #dddddd;
+}
+

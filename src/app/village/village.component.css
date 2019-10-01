@@ -1,0 +1,11 @@
+tr.even{
+    background-color:blue;
+
+}
+tr.odd{
+    background-color: green;
+}
+table,tr,th,td{
+    border: solid black 1px;
+    border-collapse: collapse
+}
