@@ -7,6 +7,7 @@ import { ThumbComponent } from './thumb/thumb.component';
 import {ResponsiveComponent} from './responsive/responsive.component';
 import { VillageComponent } from './village/village.component';
 import { CountryComponent } from './country/country.component';
+import { BootComponent } from './boot/boot.component';
 
 
 const routes: Routes = [
@@ -17,8 +18,9 @@ const routes: Routes = [
   // {path:'',component:ThumbComponent},
   // {path:'',component:ResponsiveComponent},
   // {path:'',component:VillageComponent},
-  {path:'',component:VillageComponent},
-  // {path:'',component:CountryComponent}
+  // {path:'',component:VillageComponent},
+  // {path:'',component:CountryComponent},
+  {path:'',component:BootComponent}
 ];
 
 @NgModule({

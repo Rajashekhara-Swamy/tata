@@ -14,6 +14,8 @@ import { CountryComponent } from './country/country.component'
 import { MyserviceService } from './myservice.service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { RajaComponent } from './raja/raja.component';
+import { BootComponent } from './boot/boot.component';
+import { Boot1Component } from './boot1/boot1.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { RajaComponent } from './raja/raja.component';
     VoteComponent,
     VillageComponent,
     CountryComponent,
-    RajaComponent
+    RajaComponent,
+    BootComponent,
+    Boot1Component
   ],
   imports: [
     BrowserModule,
